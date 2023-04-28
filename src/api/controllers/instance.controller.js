@@ -50,7 +50,7 @@ exports.qrbase64 = async (req, res) => {
         })
     } catch {
         res.json({
-            qrcode: '',
+            qrcode: qrcode,
         })
     }
 }
